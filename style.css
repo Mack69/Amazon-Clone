@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/** Navbar Styling **/
+
+.navbar{
+     height: 70px;
+     background: #0f1111;
+     color:white; 
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+/* Box -1 [Logo]  */ 
+
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("Resources/amazon_logo.png");
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: solid 1.5px;
+}
+
+/* Box-2 [Address] */
+
+.nav-address{
+    margin-left: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.add-first{
+    font-size: 0.8rem;
+    margin-left: 17px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 4.5px;
+    font-weight: bold;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+/* Box-3 [Search] */
+
+.nav-search{
+    display: flex;
+    width: 800px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.nav-search:hover{
+    border: 2.5px solid #cf8a09;
+}
+
+.search-select{
+    background: #e2e2e2;
+    width: 50px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.search-icon{
+    width: 55px;
+    height: 100%;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0ba0b;
+    color:black ;
+    margin: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Box-4 & Box-5 [Sign-In & Return] */
+
+.nav-signin , .nav-return{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+}
+
+.line-1{
+    font-size: 0.8rem;
+}
+
+.line-2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Box-6 [Cart] */
+
+.nav-cart{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-cart i{
+    font-size: 1.7rem;
+}
+
+.nav-cart p{
+    margin-left: 5px;
+    font-size: .85rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
